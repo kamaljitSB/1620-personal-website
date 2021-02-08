@@ -1,0 +1,26 @@
+body{
+    background-color: #a3c2a7;
+}
+
+h1 {
+    color: #1316dd;
+}
+
+ol{
+    
+    background-color: #E5DADA;
+    border: solid ;
+}
+
+
+.menu{
+        font-family: 'Noto Sans', sans-serif;
+        
+        text-indent: 20px;
+        padding: 10px 10px 10px 0px;
+        
+}
+
+.course{
+    padding: 10px;
+}
