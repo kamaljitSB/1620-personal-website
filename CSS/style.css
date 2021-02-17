@@ -1,26 +1,85 @@
+
 body{
     background-color: #a3c2a7;
+        float: left;
 }
 
-h1 {
+  h1 {
     color: #1316dd;
-}
+    padding-top: 5%;
+  }
 
-ol{
-    
-    background-color: #E5DADA;
-    border: solid ;
-}
+  ul{
+    background-color: rgb(229,218,218,0.5);
+  }
 
-
-.menu{
+  .menu{
         font-family: 'Noto Sans', sans-serif;
-        
         text-indent: 20px;
         padding: 10px 10px 10px 0px;
-        
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+  }
+
+  .course{
+    padding: 10px;
+  }
+
+  .nav{
+    overflow: hidden;
+    list-style: none;
+  }
+
+  .menu-area{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .nav li{
+    float: right;
+    margin-left: 16px;
+    list-style: none;
+  }
+
+  .nav-main li{
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .nav li a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+.info{
+    padding: 5%;
 }
 
-.course{
-    padding: 10px;
+.img{
+    float: left;
 }
+
+img{
+    width: 150px;
+    border: solid;
+    border-width: 2px;
+} 
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgba(200,137,28,1);
+}
+
+
